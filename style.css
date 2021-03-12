@@ -1,0 +1,67 @@
+body{
+  font-family: "Akaya Kanadaka";
+  background: rgb(221, 218, 218);
+  margin: 0;
+}
+.postal{
+    width: 500px;
+    margin: auto;
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 5px 25px;
+    background-color: white;
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1, p {
+    margin: 0;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.caja-logo img{
+    max-width: 60px;
+}
+
+.postal-cabecera{
+    position: relative;
+    height: 80px;
+}
+
+.caja-logo{
+    position: absolute;
+    right: 0;
+}
+
+.caja-titulo{
+    padding-top: 20px;
+}
+
+.segundaparte{
+    display: inline-block;
+}
+
+.texto{
+    width:  245px;
+}
+
+.formulario{
+   width: 220x;
+   padding-left: 30px;
+}
+
+input{
+    width: 100%;
+}
+
+.boton{
+    width: 110px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
